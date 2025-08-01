@@ -1,0 +1,29 @@
+:root{
+    --WHITECOLOR:white;
+    --BLACKCOLOR:black;
+}
+*{
+    margin: 0px;
+}
+ul li{
+    display: inline;
+    font-size: 20px;
+    color: var(--WHITECOLOR);
+    padding: 10px;
+}
+ul{
+    text-align: right;
+}
+nav{
+    background-color: var(--BLACKCOLOR);
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline var(--WHITECOLOR);
+}
+a:visited{
+    color: var(--WHITECOLOR);
+}
